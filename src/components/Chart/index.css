@@ -1,0 +1,54 @@
+.chart-container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+  }
+  @media screen and(min-width:768px) {
+    .chart-container {
+      width: 80%;
+    }
+  }
+  
+  .chart-title {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  @media screen and(min-width:768px) {
+    .chart-title {
+      font-size: 24px;
+    }
+  }
+  
+  .timeframe-container {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .export-image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .export-image-heading {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  .export-btn {
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: rgb(27, 27, 222);
+    color: #ffffff;
+    padding: 10px;
+    border: 0px;
+  }
+  
